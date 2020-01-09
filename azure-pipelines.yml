@@ -17,5 +17,6 @@ steps:
 
 - script: |
     npm install
+    npm install ionic
     ionic build –prod
   displayName: 'npm install and build'
